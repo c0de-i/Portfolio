@@ -20,6 +20,11 @@ window.addEventListener('DOMContentLoaded', event => {
 
     // Shrink the navbar when page is scrolled
     document.addEventListener('scroll', navbarShrink);
+    
+   // blog section 
+    document.getElementById('read-more-btn').addEventListener('click', function() {
+        document.getElementById('read-more').style.display = 'block';
+        this.style.display = 'none';
 
     // Activate Bootstrap scrollspy on the main nav element
     const mainNav = document.body.querySelector('#mainNav');

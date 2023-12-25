@@ -1,0 +1,32 @@
+.blog-section {
+    padding: 50px 0;
+    background-color: #f8f9fa;
+  }
+  .blog-topic h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .blog-topic p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  .blog-topic {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.blog-topic img {
+    max-width: 100%;
+    height: auto;
+}
+.blog-topic > div {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
